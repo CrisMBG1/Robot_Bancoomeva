@@ -1,6 +1,6 @@
 # Robot_Bancoomeva
 
-1. Descripción del robot  
+## **1. Descripción del robot**
 
  
 
