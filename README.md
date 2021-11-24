@@ -8,7 +8,7 @@ Robot automático para monitoreo de transacciones de servicios inteligentes que 
 
  
 
-### Utilidad 
+### - Utilidad 
  
 
 Garantizar el funcionamiento y validar la página de sistema de pagos de Bancoomeva (https://pagospse.bancoomeva.com.co/psehosting/#/productos) y oficina virtual (https://oficinavirtual.bancoomeva.com.co/IB/presentation/bccp_mb/index.htm) sin interacción humana y con códigos captcha, enviando un archivo Excel del resultado del monitoreo, esta validación se repite cada 2 horas. 
