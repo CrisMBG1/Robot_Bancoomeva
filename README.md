@@ -23,7 +23,8 @@ Antes de ejecutar el robot se debe instalar y configurar correctamente para su u
 
  
 
- 
+ ![1](https://user-images.githubusercontent.com/88993846/143276307-c0a6925f-b64f-4afe-88ff-478c010557e4.JPG)
+
 
  
 
@@ -37,7 +38,8 @@ Antes de ejecutar el robot se debe instalar y configurar correctamente para su u
 
 1. Descargar ROCKETBOT (https://www.rocketbot.com/en/studio/) disponible en Windows, Linux y Mac. 
 
- 
+ ![2](https://user-images.githubusercontent.com/88993846/143276355-0e9b70d3-ff98-4de9-8623-9d40315a6adc.JPG)
+
 
 2. Descomprimir archivo .ZIP. 
 
@@ -48,16 +50,18 @@ Antes de ejecutar el robot se debe instalar y configurar correctamente para su u
  
 
  
+![3](https://user-images.githubusercontent.com/88993846/143276396-0f4cfe34-c9f1-4239-841a-6e1d4d5689ad.JPG)
 
  
 
 La licencia se puede obtener en el siguiente link (https://license.rocketbot.co/) y llenando el formulario de la imagen inferior, el token del formulario se encuentra en el navegador abierto por Rocketbot. 
 
  
+![4](https://user-images.githubusercontent.com/88993846/143276450-91b176cb-de64-42cd-a1bb-010038ce0fad.JPG)
 
  
 
-6. Al enviar el formulario, se enviará el código de licencia al correo registrado, para finalmente pegarlo en el navegador abierto por Rocketbot y activarlo.  
+Al enviar el formulario, se enviará el código de licencia al correo registrado, para finalmente pegarlo en el navegador abierto por Rocketbot y activarlo.  
 
  
 
@@ -67,29 +71,27 @@ La licencia se puede obtener en el siguiente link (https://license.rocketbot.co/
 
 1. Descargar el robot (ROMO) del repositorio archivo .db (https://github.com/CrisMBG1/Robot_Bancoomeva)  
 
- 
 
 2. Importar el robot a Rocketbot pulsando Cargar DB de proyecto: 
 
- 
-
+ ![5](https://user-images.githubusercontent.com/88993846/143276477-24b59942-5baf-45ab-85a2-d91d7e31cbb3.JPG)
  
 
 3. Abrir el robot (Robot_Bancoomeva.db) y seleccionar Sistema_Pagos_Ingreso. 
 
- 
-
- 
-
+  
+![6](https://user-images.githubusercontent.com/88993846/143276489-f6757137-be0c-4dd3-acd5-8cf8516946d0.jpg)
  
 
 4. Una vez abierto se deben instalar los módulos (2captcha, webpro y Files) en install mods: 
 
- 
+ ![7](https://user-images.githubusercontent.com/88993846/143276640-595d2cf9-c979-40bf-b97d-4f067b1b1a7b.jpg)
+
 
 Y realizar la siguiente búsqueda e instalación.  
 
  
+![8](https://user-images.githubusercontent.com/88993846/143276955-ba931c0d-1daf-47e8-9bf6-dfef974e4f65.JPG)
 
  
 
@@ -114,19 +116,17 @@ Si se tiene el api key para la solución de módulos recaptcha se debe agregar y
 Por defecto el número de documento que se usa para ingresar al sistema de pagos es C.C 94492704, tomado por las credenciales compartidas por la mesa que realiza la tarea de verificación, pero se puede modificar este número de documento en las variables.  
 
  
+![9](https://user-images.githubusercontent.com/88993846/143277035-7bb9895c-a83e-4465-8039-9b755a3b41fa.JPG)
 
- 
  
 
 ### - Ejecutar el Robot  
 
- 
-
 Una vez configurado y definido las variables para hacer la ejecución del robot se debe dar clic en ejecutar, posteriormente se abrirá el navegador y cuando ingrese el número de documento se soluciona el captcha manualmente (Para automatizar el captcha ver 4. Instalación de modulo externo 2Captcha) 
 
- 
 
- 
+![10](https://user-images.githubusercontent.com/88993846/143277130-93328bdb-344f-4d6c-b970-3e628b0af9ba.JPG)
+
 
 En caso de querer parar el robot, alguna falla o modificar algo: 
 
@@ -134,17 +134,16 @@ En caso de querer parar el robot, alguna falla o modificar algo:
 
 Se debe abrir el debugger del robot (este se abre automáticamente cuando se ejecuta), clic en Stop y cerrar:  
 
- 
 
- 
+ ![11](https://user-images.githubusercontent.com/88993846/143277174-f253ad2a-5685-4408-b2ca-587f0dcce61f.JPG)
+
 
 Ir a rocketbot y asegurarse de que no esté activo (Botón de Detener en color rojo oscuro) de lo contrario darle a detener. 
 
  
 
- 
+![12](https://user-images.githubusercontent.com/88993846/143277203-7189ee0f-f95a-46c7-8d0c-c9b3d163b9ae.JPG)
 
- 
 
  
 
@@ -154,11 +153,10 @@ Ir a rocketbot y asegurarse de que no esté activo (Botón de Detener en color r
 
 ### - Error al abrir navegador 
 
- 
-
 Este error se debe a la versión de ChromeDriver que tiene instalada por defecto ROCKETBOT.  
 
  
+![13](https://user-images.githubusercontent.com/88993846/143277274-086177ee-d76a-458e-9add-55bd379011d8.JPG)
 
  
 
@@ -166,7 +164,8 @@ El error muestra la versión de ChromeDriver que debe tener ROCKETBOT, para esto
 
  
 
- 
+ ![14](https://user-images.githubusercontent.com/88993846/143277313-ba5398ae-0d64-436c-bdef-778f63e86f27.JPG)
+
 
 Una vez descargado el archivo .zip, se extrae, y se copia el archivo extraido para pegarlo en la carpeta (....\Rocketbot\drivers\win\chrome) donde se descargó ROCKETBOT y se reemplaza. 
 
@@ -180,47 +179,41 @@ Si estás en mac debes ir a rocketbot/drivers/mac/chrome
 
 El correo electrónico que enviará el email debe habilitar el uso de aplicaciones poco seguras y debe ser GMAIL, debido a los módulos usados en ROMO. Para esto se debe: 
 
- 
-
 1. Ingresar a la cuenta de Gmail 
+
 
 2. Dar clic en la imagen de tu cuenta de Gmail. 
 
- 
+ ![15](https://user-images.githubusercontent.com/88993846/143277370-a58e204d-0366-4bd0-beff-a89a632c9c84.JPG)
+
 
 3. Luego dar clic en “Administra tu Cuenta de Google” 
 
- 
+ ![16](https://user-images.githubusercontent.com/88993846/143277395-e5c210cb-59de-4531-8e52-8f7f69da757a.JPG)
+
 
  4. Clic en “Seguridad” 
 
- 
+ ![17](https://user-images.githubusercontent.com/88993846/143277411-5c6c4cf7-9756-4b42-8222-e7d46406ae99.JPG)
+
 
 5. Ir al apartado “Acceso de apps menos seguras” y dar click en “Activar el acceso” 
 
- 
+ ![18](https://user-images.githubusercontent.com/88993846/143277427-33221009-80fb-44c2-8e42-75e707769224.JPG)
+
 
 6. Finalmente activar “Permitir el acceso de apps menos seguras” 
 
- 
+  ![19](https://user-images.githubusercontent.com/88993846/143277439-8dc130a0-91d7-4537-84d2-36450a027460.JPG)
 
- 
-
- 
 
 Si se utiliza otro tipo de dominio de correo electrónico se debe cambiar el robot Enviar_Email con los módulos correspondientes a ese dominio de correo. 
 
  
 
- 
-
 ## 5. Instalación de modulo externo 2Captcha: 
 
- 
-
 Para agregar el módulo reCaptcha se debe: 
-
- 
 
 1. Crear una cuenta en la página (https://2captcha.com/). 
 
@@ -231,19 +224,18 @@ Para agregar el módulo reCaptcha se debe:
 4. Pegar el API Key en el módulo 2Captcha ubicado en el robot principal Sistema_Pagos_Ingreso.  
 
  
+![20](https://user-images.githubusercontent.com/88993846/143277543-eb963114-b9aa-4f55-8204-b8360bf757df.JPG)
 
  
-
 5. Ir a la pestaña Robot y abrir el robot P1_Ingreso_inicial_Servicio. 
 
 6. Habilitar los 2 comandos deshabilitados y eliminar comando de esperar. 
 
+![21](https://user-images.githubusercontent.com/88993846/143277595-a0dfe389-68ce-4b42-86ca-95a3dc822759.JPG)
 
  
 
 ## 6. Descripción del proceso  
-
- 
 
 **Robot 1 - Monitoreo del funcionamiento del sistema de pagos - Bancoomeva** 
 
@@ -293,8 +285,6 @@ Para agregar el módulo reCaptcha se debe:
 
 **Robot 2 - Monitoreo del funcionamiento oficina virtual - Bancoomeva**	 
 
- 
-
 1. Abrir nueva pestaña  
 
 2. Buscar enlace: https://oficinavirtual.bancoomeva.com.co/IB/presentation/bccp_mb/index.htm  
@@ -321,7 +311,8 @@ El robot este compuesto de por tres etapas, donde inicialmente se tienen las var
 
  
 
- 
+ ![22](https://user-images.githubusercontent.com/88993846/143277684-2996ef9e-24db-4b0e-82cf-e36d6617ae1e.JPG)
+
 
 ## 8. Descripción individual de los módulos  
 
