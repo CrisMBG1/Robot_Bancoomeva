@@ -19,7 +19,7 @@ Antes de ejecutar el robot se debe instalar y configurar correctamente para su u
 
  
 
-### Requerimientos técnicos 
+## 2. Requerimientos técnicos 
 
  
 
@@ -27,7 +27,7 @@ Antes de ejecutar el robot se debe instalar y configurar correctamente para su u
 
  
 
-### Procedimiento de Instalación, configuración y ejecución del robot 
+## 3. Procedimiento de Instalación, configuración y ejecución del robot 
 
  
 
@@ -148,7 +148,7 @@ Ir a rocketbot y asegurarse de que no esté activo (Botón de Detener en color r
 
  
 
-### Solución a errores comunes 
+## 4. Solución a errores comunes 
 
  
 
@@ -214,7 +214,7 @@ Si se utiliza otro tipo de dominio de correo electrónico se debe cambiar el rob
 
  
 
-### Instalación de modulo externo 2Captcha: 
+## 5. Instalación de modulo externo 2Captcha: 
 
  
 
@@ -238,13 +238,10 @@ Para agregar el módulo reCaptcha se debe:
 
 6. Habilitar los 2 comandos deshabilitados y eliminar comando de esperar. 
 
-### Interfaz de usuario gráfica, Aplicación, Teams
-
-Descripción generada automáticamente 
 
  
 
-Descripción del proceso  
+## 6. Descripción del proceso  
 
  
 
@@ -318,7 +315,7 @@ Descripción del proceso
 
  
 
-### Arquitectura del robot 
+## 7. Arquitectura del robot 
 
 El robot este compuesto de por tres etapas, donde inicialmente se tienen las variables de entrada, el robot padre que llama a los módulos robots hijos para facilitar el Código y la etapa de salida que envía el archivo Excel a un correo electrónico.  
 
@@ -326,7 +323,7 @@ El robot este compuesto de por tres etapas, donde inicialmente se tienen las var
 
  
 
-### Descripción individual de los módulos  
+## 8. Descripción individual de los módulos  
 
  
 
@@ -376,7 +373,7 @@ Robot que realiza él envió del email configurando el servidor de Gmail, verifi
 
  
 
-### Actividades pendientes 
+## 9. Actividades pendientes 
 
 Pagar y Habilitar el módulo 2Captcha (Ver sección de 4. Instalación de modulo externo 2Captcha) o este video explicativo del fabricante para añadir el reCaptcha (https://www.youtube.com/watch?v=BDDghM17ZCk) 
 
