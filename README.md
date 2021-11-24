@@ -320,17 +320,18 @@ El robot este compuesto de por tres etapas, donde inicialmente se tienen las var
 
 ### - Sistema_pagos_Ingreso 
 
-Robot padre donde se controlan todos los robots y contiene la serie total de pasos para el monitoreo de las páginas de sistema de pagos y oficina virtual. Ver diagrama completo (https://github.com/CrisMBG1/Robot_Bancoomeva) 
+Robot padre donde se controlan todos los robots y contiene la serie total de pasos para el monitoreo de las páginas de sistema de pagos y oficina virtual. 
 
- 
+ ![Diagrama flujo robot](https://user-images.githubusercontent.com/88993846/143278821-50953545-b7e0-41f9-8409-37bcabb99509.jpg)
 
- 
 
 ### - P1_Ingreso_inicial_Servicio 
 
 Robot que hace el proceso de inicio de sesión y resolución del módulo reCaptcha.  
 
  
+
+![23](https://user-images.githubusercontent.com/88993846/143278735-ec213361-5f4e-4d72-a4bd-3f8fbd60344c.JPG)
 
  
 
@@ -339,8 +340,8 @@ Robot que hace el proceso de inicio de sesión y resolución del módulo reCaptc
 Robot para la creación del archivo Excel que almacena el monitoreo.  
 
  
+ ![24](https://user-images.githubusercontent.com/88993846/143278724-6227690b-8ef2-4962-acd3-11fb088e0ea1.JPG)
 
- 
 
 ### - Agregar Excel  
 
@@ -348,7 +349,8 @@ Robot que agrega los estados del proceso de monitoreo al Excel.
 
  
 
- 
+ ![25](https://user-images.githubusercontent.com/88993846/143278657-5453e37e-c364-4651-a430-abe584f746f7.JPG)
+
 
  
 
@@ -357,6 +359,7 @@ Robot que agrega los estados del proceso de monitoreo al Excel.
 Robot que realiza él envió del email configurando el servidor de Gmail, verificar la apertura y envió de archivo Excel con el monitoreo.  
 
  
+![26](https://user-images.githubusercontent.com/88993846/143278664-0fd43087-badf-4b18-8cb0-395d0f557e97.JPG)
 
  
 
