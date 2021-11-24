@@ -2,6 +2,8 @@
 
 # Robot ROMO 
 
+Descargar y extraer el archivo .zip que contiene el Robot y archivo de uso rápido. 
+
 ## 1. Descripción del robot   
 
 Robot automático para monitoreo de transacciones de servicios inteligentes que requieren resolución de recaptcha. 
