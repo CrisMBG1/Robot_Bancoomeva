@@ -31,7 +31,7 @@ Antes de ejecutar el robot se debe instalar y configurar correctamente para su u
 
  
 
-#### Instalación y licenciamiento de ROCKETBOT  
+### - Instalación y licenciamiento de ROCKETBOT  
 
  
 
@@ -61,7 +61,7 @@ La licencia se puede obtener en el siguiente link (https://license.rocketbot.co/
 
  
 
-#### Instalación y configuración de robot ROMO  
+### - Instalación y configuración de robot ROMO  
 
  
 
@@ -118,7 +118,7 @@ Por defecto el número de documento que se usa para ingresar al sistema de pagos
  
  
 
-#### Ejecutar el Robot  
+### - Ejecutar el Robot  
 
  
 
@@ -152,7 +152,7 @@ Ir a rocketbot y asegurarse de que no esté activo (Botón de Detener en color r
 
  
 
-#### Error al abrir navegador 
+### - Error al abrir navegador 
 
  
 
@@ -174,7 +174,7 @@ Si estás en mac debes ir a rocketbot/drivers/mac/chrome
 
  
 
-####No envía el correo electrónico  
+### - No envía el correo electrónico  
 
  
 
@@ -327,7 +327,7 @@ El robot este compuesto de por tres etapas, donde inicialmente se tienen las var
 
  
 
-#### Sistema_pagos_Ingreso 
+### - Sistema_pagos_Ingreso 
 
 Robot padre donde se controlan todos los robots y contiene la serie total de pasos para el monitoreo de las páginas de sistema de pagos y oficina virtual. Ver diagrama completo (https://github.com/CrisMBG1/Robot_Bancoomeva) 
 
@@ -335,7 +335,7 @@ Robot padre donde se controlan todos los robots y contiene la serie total de pas
 
  
 
-#### P1_Ingreso_inicial_Servicio 
+### - P1_Ingreso_inicial_Servicio 
 
 Robot que hace el proceso de inicio de sesión y resolución del módulo reCaptcha.  
 
@@ -343,7 +343,7 @@ Robot que hace el proceso de inicio de sesión y resolución del módulo reCaptc
 
  
 
-#### Crear Excel 
+### - Crear Excel 
 
 Robot para la creación del archivo Excel que almacena el monitoreo.  
 
@@ -351,7 +351,7 @@ Robot para la creación del archivo Excel que almacena el monitoreo.
 
  
 
-#### Agregar Excel  
+### - Agregar Excel  
 
 Robot que agrega los estados del proceso de monitoreo al Excel.  
 
@@ -361,7 +361,7 @@ Robot que agrega los estados del proceso de monitoreo al Excel.
 
  
 
-#### Enviar_Email 
+### - Enviar_Email 
 
 Robot que realiza él envió del email configurando el servidor de Gmail, verificar la apertura y envió de archivo Excel con el monitoreo.  
 
